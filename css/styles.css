@@ -1,141 +1,51 @@
-#border1:hover {
-border-style: solid;
-border-width: 10px;
-width: 150px;
-height: 150px;
-background-color: yellow;
-
+#table{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin: 40px auto;
+  border-collapse: separate;
+  border-spacing: 0px;
 }
-        #border1 {
-        border-style: solid;
-        border-width: 5px;
-        width: 150px;
-        height: 150px;
 
-        }
-#border2:hover {
-border-style: solid;
-border-width: 10px;
-width: 150px;
-height: 150px;
-background-color:red;
-}
-        #border2 {
-        border-style: solid;
-        border-width: 5px;
-        width: 150px;
-        height: 150px;
-
-        }
-#border3:hover {
-border-style: solid;
-border-width: 10px;
-width: 150px;
-height: 150px;
-background-color: blue;
-}
-        #border3 {
-        border-style: solid;
-        border-width: 5px;
-        width: 150px;
-        height: 150px;
-
-        }
-
-#border4:hover {
-border-style: solid;
-border-width: 10px;
-width: 150px;
-height: 150px;
-background-color: green;
-}
-        #border4 {
-        border-style: solid;
-        border-width: 5px;
-        width: 150px;
-        height: 150px;
-
-        }
-
-#border5:hover {
-border-style: solid;
-border-width: 10px;
-width: 150px;
-height: 150px;
-background-color: violet;
-}
-        #border5 {
-        border-style: solid;
-        border-width: 5px;
-        width: 150px;
-        height: 150px;
-
-        }
-
-#border6:hover {
-border-style: solid;
-border-width: 10px;
-width: 150px;
-height: 150px;
-background-color: orange;
-
-}
-        #border6 {
-        border-style: solid;
-        border-width: 5px;
-        width: 150px;
-        height: 150px;
-
-        }
-
-#border7:hover {
-border-style: solid;
-border-width: 10px;
-width: 150px;
-height: 150px;
-background-color: brown;
-}
-        #border7 {
-        border-style: solid;
-        border-width: 5px;
-        width: 150px;
-        height: 150px;
-
-        }
-
-#border8:hover {
-border-style: solid;
-border-width: 10px;
-width: 150px;
-height: 150px;
-background-color: pink;
-}
-        #border8 {
-        border-style: solid;
-        border-width: 5px;
-        width: 150px;
-        height: 150px;
-
-        }
-
-#border9:hover {
-border-style: solid;
-border-width: 10px;
-width: 150px;
-height: 150px;
-background-color: skyblue;
-}
-        #border9 {
-        border-style: solid;
-        border-width: 5px;
-        width: 150px;
-        height: 150px;
-
-        }
-h1 {
+#table td {
+  border: 2px solid black;
+  height: 120px;
+  width: 120px;
   text-align: center;
+  cursor: pointer;
 }
-#player-name {
-  float: right;
 
+#t1:hover{
+  background-color: skyblue;
+}
+
+#t2:hover{
+  background-color:blue;
+}
+
+#t3:hover{
+  background-color:green;
+}
+
+#t4:hover{
+  background-color:red;
+}
+
+#t5:hover{
+  background-color:orange;
+}
+
+#t6:hover{
+  background-color:pink;
+}
+
+#t7:hover{
+  background-color:violet;
+}
+
+#t8:hover{
+  background-color:brown;
+}
+
+#t9:hover{
+  background-color:yellow;
 }
