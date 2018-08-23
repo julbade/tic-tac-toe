@@ -1,8 +1,9 @@
 $(document).ready(function() {
-$("#first").click(function(event) {
+$("td").click(function(event) {
  event.preventDefault();
+$(this).css("background-image", "url('img/x.png')");
+$(this).css("background-size", "contain");
 
-   $("#first").hide();
  });
 
 
