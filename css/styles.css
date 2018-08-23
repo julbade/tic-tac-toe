@@ -4,6 +4,7 @@ border-width: 10px;
 width: 150px;
 height: 150px;
 background-color: yellow;
+
 }
         #border1 {
         border-style: solid;
@@ -17,7 +18,7 @@ border-style: solid;
 border-width: 10px;
 width: 150px;
 height: 150px;
-background-color: yellow;
+background-color:red;
 }
         #border2 {
         border-style: solid;
@@ -31,7 +32,7 @@ border-style: solid;
 border-width: 10px;
 width: 150px;
 height: 150px;
-background-color: yellow;
+background-color: blue;
 }
         #border3 {
         border-style: solid;
@@ -46,7 +47,7 @@ border-style: solid;
 border-width: 10px;
 width: 150px;
 height: 150px;
-background-color: yellow;
+background-color: green;
 }
         #border4 {
         border-style: solid;
@@ -61,7 +62,7 @@ border-style: solid;
 border-width: 10px;
 width: 150px;
 height: 150px;
-background-color: yellow;
+background-color: violet;
 }
         #border5 {
         border-style: solid;
@@ -76,7 +77,8 @@ border-style: solid;
 border-width: 10px;
 width: 150px;
 height: 150px;
-background-color: yellow;
+background-color: orange;
+
 }
         #border6 {
         border-style: solid;
@@ -91,7 +93,7 @@ border-style: solid;
 border-width: 10px;
 width: 150px;
 height: 150px;
-background-color: yellow;
+background-color: brown;
 }
         #border7 {
         border-style: solid;
@@ -106,7 +108,7 @@ border-style: solid;
 border-width: 10px;
 width: 150px;
 height: 150px;
-background-color: yellow;
+background-color: pink;
 }
         #border8 {
         border-style: solid;
@@ -121,7 +123,7 @@ border-style: solid;
 border-width: 10px;
 width: 150px;
 height: 150px;
-background-color: yellow;
+background-color: skyblue;
 }
         #border9 {
         border-style: solid;
@@ -130,3 +132,10 @@ background-color: yellow;
         height: 150px;
 
         }
+h1 {
+  text-align: center;
+}
+#player-name {
+  float: right;
+
+}
