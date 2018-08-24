@@ -8,31 +8,36 @@
     <title>Tic-Tac-Toe</title>
   </head>
   <body>
+
     <div class="container">
       <div class="jumbotron">
     <h1>TicTacToe</h1>
-
+    <h3>Player 1: <span id="player1"></span></h3>
+    <h3>Player 2: <span id="player2"></span></h3>
+</table>
+    <div id="placeholder">
     <table id="table">
       <tr>
-        <td id="t1"></td>
-        <td id="t2"></td>
-        <td id="t3"></td>
+        <td id="t1" value=0></td>
+        <td id="t2" value=1></td>
+        <td id="t3" value=2</td>
       </tr>
       <tr>
-        <td id="t4"></td>
-        <td id="t5"></td>
-        <td id="t6"></td>
+        <td id="t4" value=3</td>
+        <td id="t5" value=4</td>
+        <td id="t6" value=5</td>
       </tr>
       <tr>
-        <td id="t7"></td>
-        <td id="t8"></td>
-        <td id="t9"></td>
+        <td id="t7" value=6</td>
+        <td id="t8" value=7</td>
+        <td id="t9" value=8</td>
       </tr>
 
     </table>
+    <button class="btn btn-success" id="refresh">Restart!</button>
   </div>
 </div>
-    <button class="btn btn-success" id="refresh">Restart!</button>
+</div>
 
   </body>
 </html>

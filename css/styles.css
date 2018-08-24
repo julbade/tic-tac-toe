@@ -52,3 +52,6 @@
 h1 {
   text-align: center;
 }
+#player1 , #player2 {
+  display: none;
+}
